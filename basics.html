@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is the Title!</title>
+</head>
+<body>
+    <!-- This a comment -->
+    <!-- using ctrl / will comment out the line -->
+
+    <h1>Here is the Heading h1</h1>
+    <h2>Here is the heading h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <p>this is a paragraph "p" </p>
+
+    <p>line 2 of paragraph. \n Newline escape character doesn't work. Neither does /n </p>
+
+    <p>in html you use tags. This is a new line created by a new p tag.</p>
+
+    <p>filler text via lorem </p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam laborum mollitia vitae tenetur, magni culpa aspernatur consequatur, consequuntur libero dolore, facilis debitis itaque dolorem iste? Incidunt suscipit tenetur reiciendis cum.</p>
+
+    <p><strong>is bolded text</strong></p>
+
+    <p><em>This is italic.</em></p>
+
+    <h1>Lists:</h1>
+
+    <ol>
+        <li>First List Item</li>
+        <li>Second li </li>
+        <li>Third item in ordered list</li>
+    </ol>
+
+    <ul>
+        <li>First Item in UNordered list</li>
+        <li>second item</li>
+        <li><ol><li>nested ordered list item</li></ol></li>
+    </ul>
+
+    <h1>Divs and Spans: </h1>
+
+    <div class="GroupOne">
+        <h2>Group One</h2>
+        <p>I want to be in group One</p>
+    </div>
+
+    <span>This will be the span area when I add CSS </span>
+
+    <h1>Attributes:</h1>
+
+    <!-- I've added a .png file to the working directory to call-->
+
+    <p>here is an image of a mallard, not resized until later with CSS</p>
+    <img src="29-duck-png-image.png" alt="Missing the duck">
+
+    <p>Here is a link to the other html in my directory</p>
+    <p>using the "a" anchor tag and href</p>
+
+    <a href="WebDevPractice.html">Click me</a>
+
+    <!--Using an image as the anchor text-->
+
+    <a href="https://www.Google.com"><img src="https://www.google.com/logos/doodles/2023/seasonal-holidays-2023-6753651837110165-6752733080612631-cst.gif" alt=""></a>
+
+    <h1>Tables: </h1>
+
+    <!--thead is not required, but it does give the bolded column headings-->
+
+
+    <table border="1">
+        <thead>
+        <th>Number</th>
+        <th>Color</th>
+        <th>Country</th>
+        </thead>
+        <tr>
+            <td>250</td>
+            <td>Red</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>200</td>
+            <td>Green</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>300</td>
+            <td>Blue</td>
+            <td>USA</td>
+        </tr>
+        <thead>
+            <th>English Wiki</th>
+            <th>Spanish Wiki</th>
+            <th>Random Wiki</th>
+        </thead>
+        <tr>
+            <td><a href="https://www.bing.com/ck/a?!&&p=e1f035e352322560JmltdHM9MTcwMzg5NDQwMCZpZ3VpZD0xYzAyZTY4Mi0wYjhlLTYxYTgtMmRkMy1mNTllMGEyNjYwYWImaW5zaWQ9NTUwMw&ptn=3&ver=2&hsh=3&fclid=1c02e682-0b8e-61a8-2dd3-f59e0a2660ab&psq=wikipedia&u=a1aHR0cDovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9NYWluX1BhZ2U&ntb=1"><img src="https://en.wikipedia.org/static/images/icons/wikipedia.png" alt=""></a></td>
+            <td><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada"><img src="https://es.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-es.svg" alt=""></a></td>
+            <td><a href="https://www.bing.com/ck/a?!&&p=a88a9fb850116a45JmltdHM9MTcwMzg5NDQwMCZpZ3VpZD0xYzAyZTY4Mi0wYjhlLTYxYTgtMmRkMy1mNTllMGEyNjYwYWImaW5zaWQ9NTUxNw&ptn=3&ver=2&hsh=3&fclid=1c02e682-0b8e-61a8-2dd3-f59e0a2660ab&psq=wikipedia&u=a1aHR0cDovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9TcGVjaWFsOlJhbmRvbQ&ntb=1"><img src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt=""></a></td>
+        </tr>
+    </table>
+    
+    <h1>FORMS: </h1>
+
+    <form>
+        <h3>Please enter your email:</h3>
+        
+        <input type="email" name="userEmail" id="" value="email here">
+        
+        <h3>Please enter your password:</h3>
+
+        <input type="password" name="userPassword" id="">
+
+        <input type="submit" value="submit">
+
+        <input type="date" name="userDate" id="">
+    </form>
+
+    <h3>Form for Colors and buttons:</h3>
+    <form>
+        <input type="button" value="Click me, I don't do anything">
+        <input type="color" name="userColor" id="">
+    </form>
+
+    <h2>Form using the action and method Attributes</h2>
+    <form action=""></form>
+</body>
+</html>
